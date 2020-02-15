@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+   <node pkg="robot_mover" name="mover" type="mover.py" output="screen"/>
+   <node pkg="robot_mover" name="display" type="display.py" output="screen"/>
+   <include file="/opt/ros/melodic/share/turtlebot3_gazebo/launch/turtlebot3_empty_world.launch"/>
+</launch>
